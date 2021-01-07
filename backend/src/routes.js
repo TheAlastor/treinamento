@@ -23,4 +23,4 @@ routes.get('/profile', ProfileController.index);
 
 routes.post('/sessions', SessionController.create);
 
-module.exports = routes;
+module.exports = routes; //exporta a variável "routes" (neste caso para index.js)
